@@ -13,6 +13,9 @@ A full-stack application for maintaining consistent, reliable, and up-to-date co
 - **Job Queue**: Bull queue with retry logic and exponential backoff
 - **Real-time Updates**: WebSocket notifications for sync status
 
+[![Watch the video]()](https://drive.google.com/file/d/1VbTs3Aw8dAQPBdYDKOfI73JLWPcnktFm/view?usp=sharing)
+
+
 ## Tech Stack
 
 ### Backend
