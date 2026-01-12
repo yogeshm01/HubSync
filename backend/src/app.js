@@ -32,7 +32,7 @@ const server = http.createServer(app);
 // Middleware
 app.use(helmet());
 app.use(cors({
-    origin: process.env.CORS_ORIGIN || 'https://hub-sync-vlig.vercel.app',
+    origin: true,
     credentials: true,
 }));
 app.use(morgan('combined', { stream: { write: (msg) => logger.info(msg.trim()) } }));
