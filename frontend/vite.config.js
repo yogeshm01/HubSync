@@ -7,11 +7,11 @@ export default defineConfig({
         port: 5173,
         proxy: {
             '/api': {
-                target: 'https://hub-sync-rho.vercel.app/',
+                target: 'https://hubsync-ebgt.onrender.com',
                 changeOrigin: true,
             },
             '/socket.io': {
-                target: 'https://hub-sync-rho.vercel.app/',
+                target: 'https://hubsync-ebgt.onrender.com',
                 changeOrigin: true,
                 ws: true,
             },
