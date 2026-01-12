@@ -9,7 +9,7 @@ class SocketService {
     connect() {
         if (this.socket?.connected) return;
 
-        this.socket = io(window.location.origin, {
+        this.socket = io('https://hubsync-ebgt.onrender.com', {
             autoConnect: true,
             reconnection: true,
             reconnectionAttempts: 5,
